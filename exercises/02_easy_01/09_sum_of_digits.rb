@@ -8,7 +8,7 @@ puts sum(23) == 5
 puts sum(496) == 19
 puts sum(123_456_789) == 45
 
-# futher exploration 1
+# further exploration 1
 
 def sum(num)
   strg_digits = num.to_s.chars
@@ -26,7 +26,7 @@ puts sum(23) == 5
 puts sum(496) == 19
 puts sum(123_456_789) == 45
 
-# futher exploration 2
+# further exploration 2
 
 def sum(num)
   num.to_s.chars.map {|digits| digits.to_i}.inject(&:+)

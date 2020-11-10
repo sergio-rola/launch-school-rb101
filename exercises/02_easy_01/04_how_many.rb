@@ -14,7 +14,7 @@ vehicles = [
 
 count_occurrences(vehicles)
 
-# futher exploration
+# further exploration
 
 def count_occurrences(vehicles_name)
   occurrences = Hash.new(0)

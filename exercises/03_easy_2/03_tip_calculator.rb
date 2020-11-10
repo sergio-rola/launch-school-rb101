@@ -1,6 +1,6 @@
 # 03_tip_calculator.rb
 
-#futher exploration
+#further exploration
 
 print "What is the bill? "
 bill = gets.chomp.to_f
