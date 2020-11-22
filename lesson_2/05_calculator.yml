@@ -1,0 +1,11 @@
+# 05_calculator.yml
+
+welcome: "Welcome to Calculator! Enter your name:"
+valid_name: "Make sure to enter a valid name."
+first_number: "What's the first number?"
+second_number: "What's the second number?"
+not_valid_number: "Hmmm that is not a valid number"
+not_valid_operator: "That's not a valid operator, choose 1, 2, 3, or 4"
+two_numbers: "the two numbers..."
+another_calculation: "Do you want to perform another calculation? (Y to calculate again)"
+thank_you:  "Thank you for using the calculator"

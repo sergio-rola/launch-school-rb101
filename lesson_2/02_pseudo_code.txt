@@ -1,0 +1,79 @@
+# 02_pseudo_code.txt
+
+1) a method that returns the sum of two integers
+
+Given two integers.
+
+Sum the values of both integers.
+
+Return the value.
+
+
+START
+
+# Given two integers
+
+PRINT int1 + int2
+
+END
+
+
+
+2) a method that takes an array of strings, and returns a string that is all those strings concatenated together
+
+Given an array of strings.
+
+Save the first value of the array as a string variable
+
+Iterate through the collection one by one except the first value
+	- for each iteration save the concatenated words to the string variable
+
+After iterating through the collection, return the saved string variable.
+
+
+START
+
+# Given an array of strings
+
+SET sentence = first value of array
+iterator = 1
+
+WHILE iterator < array size
+	SET sentence += value within string collection
+	go to the next iteration
+
+PRINT words
+
+END
+
+
+
+3) a method that takes an array of integers, and returns a new array with every other element
+
+Given an array of integers
+
+Create a new empty array.
+
+Iterate through the collection
+	- for each iteration check if "iterator" index is an odd number
+	- if index at iteration is odd save the value in the new array
+
+After iterating through the collection, return the saved value.
+
+
+START
+
+# Given an array of integers
+
+SET new_array = []
+SET iterator = 0
+
+WHILE iterator < length of given array
+	IF "iterator" index is an odd number
+		SET new_array << value within given array
+
+	iterator += 1
+
+PRINT new_array
+
+END
