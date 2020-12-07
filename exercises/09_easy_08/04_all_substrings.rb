@@ -1,25 +1,3 @@
-def substrings(str)
-  sub_strings = []
-
-  while !str.empty?
-    1.upto(str.size) { |num| sub_strings << str.slice(0, num) }
-    str = str.delete(str[0])
-  end
-
-  sub_strings
-end
-
-substrings('abcde') == [
-  'a', 'ab', 'abc', 'abcd', 'abcde',
-  'b', 'bc', 'bcd', 'bcde',
-  'c', 'cd', 'cde',
-  'd', 'de',
-  'e'
-]
-
-
-# further exploration
-
 def leading_substrings(str)
   sub_strings = []
 
